@@ -1,3 +1,5 @@
+pip install folium
+pip install streamlit_folium
 import streamlit as st
 
 st.title('project')
