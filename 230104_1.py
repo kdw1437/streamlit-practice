@@ -1,4 +1,3 @@
-
 import streamlit as st
 
 st.title('project')
@@ -33,7 +32,7 @@ if item == 'item1':
 
     
     # folium
-
+    st.title('서울 지역 대학교 위치 데이터')
     import folium
     from streamlit_folium import folium_static
 
@@ -63,6 +62,7 @@ if item == 'item1':
     #    matplotlib
     import pandas as pd
     import matplotlib.pyplot as plt
+    
 
 elif item == 'item0':
     st.write("\n","streamlit 연습 프로젝트 입니다.")
